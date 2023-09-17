@@ -14,10 +14,27 @@
 
 ## 项目结构图 
 **未优化的基础架构：**
- ![image](https://github.com/aSong200/songbi-backend/assets/140307645/206be600-17d1-4007-8bf9-0c9d010422f8)
+![image](https://github.com/aSong200/songbi-backend/assets/140307645/6618e826-8fd0-4050-a21b-b1f27f46cf0c)
+
 
 **优化后的架构（异步化）：**
-![image](https://github.com/aSong200/songbi-backend/assets/140307645/db45b8aa-90db-4a58-a31c-a2c24ab437b3)
+![image](https://github.com/aSong200/songbi-backend/assets/140307645/f078c989-f0bf-47d6-ba37-30d72efd6649)
 
 
 ## 项目展示
+测试文件在文件夹中
+### 1. 智能分析（同步）
+1.1 提交智能分析请求后，只能阻塞等待
+![a8f645413802a6e31c07c58312da13e](https://github.com/aSong200/songbi-backend/assets/140307645/72055c91-1716-4a4c-9966-c184b502c20c)
+
+1.2 分析成功后
+![a373381b05dd46d5ff6d7e417eec5d0](https://github.com/aSong200/songbi-backend/assets/140307645/816a6f33-867c-4caf-9fda-472d531a740b)
+
+### 2.智能分析（异步）
+1.1 提交智能分析请求后，立刻响应前端提交任务成功，可向 我的图表 中查看图表生成状况
+![image](https://github.com/aSong200/songbi-backend/assets/140307645/5ed6aa93-22a6-4059-b4cf-9781e2538c2e)
+
+![e876562754f105413ece2dc835c38a1](https://github.com/aSong200/songbi-backend/assets/140307645/dd5202d5-59d2-47c3-90cc-7ce7d3fbebca)
+
+1.2 去 我的图表 中查看图表生成状况
+![81c6806da25a8add54ef457bd636c51](https://github.com/aSong200/songbi-backend/assets/140307645/60647c93-d73d-4cdb-a44b-d93893b3014b)
