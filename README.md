@@ -14,8 +14,10 @@
 
 ## 项目结构图 
 **未优化的基础架构：**
-![输入图片说明](/imgs/2023-09-18/hv2Wok38w5q2c0Ce.png)
+ ![image](https://github.com/aSong200/songbi-backend/assets/140307645/206be600-17d1-4007-8bf9-0c9d010422f8)
+
 **优化后的架构（异步化）：**
-![输入图片说明](/imgs/2023-09-18/XSEQ3kCknXGxJiE7.png)
+![image](https://github.com/aSong200/songbi-backend/assets/140307645/db45b8aa-90db-4a58-a31c-a2c24ab437b3)
+
 
 ## 项目展示
